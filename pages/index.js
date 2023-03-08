@@ -101,7 +101,7 @@ export default function Home() {
               Templates <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              clicky clicky Next.js&nbsp;projects.
             </p>
           </a>
 
