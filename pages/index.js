@@ -83,7 +83,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              Test<span>-&gt;</span>
             </h2>
             
             <p className={inter.className}>
