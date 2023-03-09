@@ -20,7 +20,8 @@ export default function Home() {
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>Helloo</code>
-          </p>
+          </p> 
+          <p>hello</p>
           <div>
             
             <a
@@ -38,7 +39,7 @@ export default function Home() {
                 priority
               />
             </a>
-            <p>hello</p>
+            
           </div>
         </div>
 
