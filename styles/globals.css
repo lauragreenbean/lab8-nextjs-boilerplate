@@ -31,7 +31,8 @@
     #f0cced20,
     #00000010,
     #00000010,
-    #d136b780
+    #d136b780, 
+    
   );
 
   --callout-rgb: 238, 240, 241;
@@ -100,8 +101,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }

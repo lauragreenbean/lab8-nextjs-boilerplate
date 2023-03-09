@@ -71,25 +71,25 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Test <span>-&gt;</span>
+              About <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
+              My journey and my &nbsp;inspirations.
             </p>
           </a>
 
           <a
-            href="https://next.js.org"
+            href="/page2.js"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Blah<span>-&gt;</span>
+              Research Experience<span>-&gt;</span>
             </h2>
             
             <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Overview of my work in academic and industry research &nbsp;settings.
             </p>
           </a>
 
@@ -114,11 +114,11 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              Get in touch! <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              Use my calendly for consultations and&nbsp;collaborations.
+             
             </p>
           </a>
         </div>
