@@ -79,7 +79,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/About.js"
+            href="/About"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
