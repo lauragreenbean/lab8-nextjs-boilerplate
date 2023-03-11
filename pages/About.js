@@ -1,3 +1,14 @@
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+import { Html, Head, Main, NextScript } from 'next/document'
+
+export default function Document() {
+  return (
+    <Html lang="en">
+      <Head />
+      <body>
+        <p>Hello?</p>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  )
 }
