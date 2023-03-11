@@ -78,7 +78,7 @@ export default function Home() {
           </a>
 
           <a
-            href="pages/about"
+            href="pages/contact"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
