@@ -2,12 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
 import 'next/components/NavBar.js'
-// use this to import the NavBar component
-//add the NavBar component to the return statement below
 
 export default function Home() {
   return (
@@ -19,12 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>
-          
-          <NavBar />
-          //add pages to the NavBar component
-
-        </div>
+      <NavBar />
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
