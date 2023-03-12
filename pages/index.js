@@ -6,13 +6,8 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 import 'next/components/NavBar.js'
-  
-  <NavBar>
-    <NavBar.Item href="/about">About</NavBar.Item>
-    <NavBar.Item href="/gallery">Gallery</NavBar.Item>
-    <NavBar.Item href="/contact">Contact</NavBar.Item>
-
-  </NavBar>
+// use this to import the NavBar component
+//add the NavBar component to the return statement below
 
 export default function Home() {
   return (
@@ -24,6 +19,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <div>
+          
+          <NavBar />
+          //add pages to the NavBar component
+
+        </div>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
