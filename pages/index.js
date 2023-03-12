@@ -6,21 +6,14 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 import 'next/components/NavBar.js'
-
-export default function BasicExample() {
-return(
-  <>
   
   <NavBar>
     <NavBar.Item href="/about">About</NavBar.Item>
     <NavBar.Item href="/gallery">Gallery</NavBar.Item>
     <NavBar.Item href="/contact">Contact</NavBar.Item>
-    
+
   </NavBar>
 
-  </>
-)
-}
 export default function Home() {
   return (
     <>
