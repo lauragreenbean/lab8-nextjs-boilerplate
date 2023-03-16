@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import NavBar from 'index.js';
 
-import 'next/components/NavBar.js'
+import 'pages/index.js';
 NavBar();
 
 export default function Home() {
